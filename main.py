@@ -208,7 +208,10 @@ import pandas
 import hashlib
 
 
+def funp():
+    print ("test")
 
+funp()
 
 
 
