@@ -203,7 +203,7 @@ print(double(5))
 
 avg= lambda x,c,v: (x+c+v)/2
 print(avg(3,3,3))
-'''
+
 import pandas
 import hashlib
 
@@ -213,10 +213,29 @@ def funp():
 
 funp()
 
+def printfun():
+    print("test")
+
+printfun()
 
 
+'''
 
 
+x = (1,2,3)
+
+print(dir(x))
+
+
+class person():
+    def __init__(self, name,age):
+        self.name=name
+        self.age=age
+
+p1= person("hanan",21)
+print(p1.__dict__)
+
+print(help(person))
 
 
 
