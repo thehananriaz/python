@@ -218,10 +218,7 @@ def printfun():
 
 printfun()
 
-
-'''
-
-
+#dir 
 x = (1,2,3)
 
 print(dir(x))
@@ -236,6 +233,10 @@ p1= person("hanan",21)
 print(p1.__dict__)
 
 print(help(person))
+
+'''
+
+
 
 
 
