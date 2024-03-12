@@ -2,7 +2,7 @@
 '''
 comment
 '''
-
+import email.charset
 
 #variables
 
@@ -233,6 +233,24 @@ p1= person("hanan",21)
 print(p1.__dict__)
 
 print(help(person))
+#inheritance
+class employee:
+    def __init__ (self,name,id):
+        self.name=name
+        self.id=id
+    def show(self):
+        print(f"the name is {self.name} for id is {self.id})")
+class singer(employee):
+    def __init__(self,genre):
+        self.genre=genre
+
+class artist(employee, singer):
+    def __init__(self):
+        print(f"{self.name} is a singer who'sgenre is {self.genre}" )
+
+
+e= artist("hanan",21)
+e.show()git c
 
 '''
 
