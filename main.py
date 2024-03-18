@@ -1,14 +1,9 @@
-#comment
-'''
-comment
-'''
-import email.charset
 
+'''
 #variables
 
 num1=10
 num2=20
-'''
 print(num1+num2)
 print(num1-num2)
 print(num1*num2)
@@ -252,7 +247,72 @@ class artist(employee, singer):
 e= artist("hanan",21)
 e.show()git c
 
+
+#timemodule
+
+
+def usingwhile():
+    i = 0
+    while i<50000:
+       i = i+1
+       print(i)
+def usingfor():
+   for i in range(50000):
+     print(i)
+
+init = time.time()
+usingfor()
+t= print(time.time()-init)
+init = time.time()
+usingwhile()
+print(time.time()-init)
+print(t)
+
+
+#sleep time
+print("hanan")
+time.sleep(3)
+print("hanan after 3 sec")
+
+#time.strf
+
+t = time.localtime()
+ft = time.strftime("%Y-%m-%d %H:%M:%S",t)
+print(ft)
+
+t = time.localtime()
+ft = time.strftime("%Y-%m-%d %H:%M:%S",t)
+print(ft)
+
+from datetime import datetime
+corr=datetime.now()
+print(corr)F
+
+#strp time
+current = '2019/05/30 4:32:51'
+print(datetime.strptime(current , '%Y-%m-%d %H:%M:%S'))
+
+from datetime import datetime
+
+ts =13098341
+t= datetime.fromtimestamp(ts)
+print(t)
+
+
+import datetime
+import time
+ct =datetime.datetime.now()
+ct =ct.strftime("%Y/%m-%d %H:%M:%S")
+print(ct)
+
+
 '''
+
+
+
+
+
+
 
 
 
