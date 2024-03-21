@@ -65,15 +65,29 @@
 # print(next(g))
 
 #closure
-def outer_funtion():
-    def inner_funtion():
-        x=200
-        return x
-    return inner_funtion()
-print(outer_funtion())
+# def outer_funtion():
+#     def inner_funtion():
+#         x=200
+#         return x
+#     return inner_funtion()
+# print(outer_funtion())
 
 
 #decorators in python
+
+# def greet(fx):
+#     def mfx(*args, **kwargs):
+#         print("start before decoration")
+#         fx(*args, **kwargs)
+#         print("after decoration")
+#     return mfx()
+# def add(a,b):
+#     print(a+b)
+# @greet
+# def afunction():
+#     print("Hello World")
+#
+# greet(add(2,3))
 
 
 
