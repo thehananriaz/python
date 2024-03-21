@@ -89,7 +89,24 @@
 #
 # greet(add(2,3))
 
+#@property
 
+# class employe:
+#     def __init__(self,name,last):
+#         self.name = name
+#         self.last = last
+#     @property
+#     def email(self):
+#
+#         return (f"{self.name}{self.last}@gmail.com")
+#     def fullname(self):
+#         return (f"{self.name} {self.last}")
+#
+# e1 = employe("John","Doe")
+#
+# print(e1.name)
+# print(e1.email)
+# print(e1.fullname())
 
 
 
