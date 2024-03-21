@@ -123,6 +123,31 @@
 # print(e1.fullname)
 
 
+#RegEx
+#
+# import re
+#
+# pattern = r"[a-z]aba"
+#
+# text = '''The first day of aba jaba daba laba z is Eid al-Fitr, fasting is prohibited. Some Muslims observe six days of optional fasting during Shawwāl beginning the day after Eid ul-Fitr since fasting is prohibited on this day. These six days of fasting together with the Ramadan fasts, are equivalent to fasting all year round.
+# '''
+#
+# matches = re.finditer(pattern, text)
+# for match in matches:
+#     print(match.span())
+#     print(text[match.span()[0]:match.span()[1]])
+
+import re
+# pattern = '^a...s$'
+# test_string = 'abyss'
+# result = re.match(pattern, test_string)
+#
+# if result:
+#   print("Search successful.")
+# else:
+#   print("Search unsuccessful.")
+
+
 
 
 
