@@ -54,3 +54,26 @@
 # for i in value:
 #     print(i)
 
+#generators
+
+# def my_generator():
+#     for i in range(100):
+#         yield i
+#
+# g = my_generator()
+# print(next(g))
+# print(next(g))
+
+#closure
+def outer_funtion():
+    def inner_funtion():
+        x=200
+        return x
+    return inner_funtion()
+print(outer_funtion())
+
+
+
+
+
+
