@@ -73,6 +73,9 @@ def outer_funtion():
 print(outer_funtion())
 
 
+#decorators in python
+
+
 
 
 
