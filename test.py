@@ -89,6 +89,7 @@
 #
 # greet(add(2,3))
 
+
 #@property
 
 # class employe:
@@ -99,14 +100,29 @@
 #     def email(self):
 #
 #         return (f"{self.name}{self.last}@gmail.com")
+#     @property #getter to get the value from the method without changing the variables
 #     def fullname(self):
 #         return (f"{self.name} {self.last}")
 #
-# e1 = employe("John","Doe")
+#     @fullname.setter #setter
+#     def fullname(self, naam):
+#         name,last = naam.split()
+#         self.name = name
+#         self.last = last
+#     @fullname.deleter #deleter
+#     def fullname(self):
+#         self.name = None
+#         self.last = None
 #
+# e1 = employe("John","Doe")
+# e1.fullname = "Hanan Riaz"
 # print(e1.name)
+#
+# del e1.fullname
 # print(e1.email)
-# print(e1.fullname())
+# print(e1.fullname)
+
+
 
 
 
