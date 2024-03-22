@@ -148,7 +148,18 @@ import re
 #   print("Search unsuccessful.")
 
 
+#map Function
 
-
-
+#
+# numbers = [1, 2, 3, 4,65]
+# newnum = map(lambda x:x*x,numbers)
+# print(newnum)
+# print(list(newnum))
+#
+# def filterfunction(a):
+#     return a>10
+#
+# newnewnum = filter(filterfunction, numbers)
+# print(newnewnum)
+# print(list(newnewnum))
 
